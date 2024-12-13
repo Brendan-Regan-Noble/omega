@@ -40,7 +40,7 @@ export function AppSidebar() {
   })
 
   return (
-    <Sidebar collapsible="icon" className="bg-[#c7c7c7] mt-16 flex flex-col h-[calc(100vh-4rem)]">
+    <Sidebar collapsible="icon" className="bg-[#c7c7c7] flex flex-col h-[calc(100vh-4rem)] fixed left-0 top-16 z-10">
       <div className="border-b border-gray-300">
         <CollapseButton />
       </div>
